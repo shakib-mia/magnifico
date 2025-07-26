@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Magnifico</title>
 
-    <script src="./lib/scrollAnimate.js"></script>
+    <script type="module" src="./lib/scrollAnimate.js"></script>
     <script>
       function openModal() {
         const modal = document.getElementById("videoModal");
@@ -33,7 +33,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="bg-white shadow fixed w-full top-0 z-[9999999999]">
+    <nav class="bg-white shadow fixed w-full z-[9999999999]" id="navbar">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between py-16 lg:py-6 items-center">
           <!-- Left: Logo -->
