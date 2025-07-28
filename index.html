@@ -83,44 +83,66 @@
       <!-- Mobile Menu -->
       <div
         id="mobile-menu"
-        class="lg:hidden transition-[height] overflow-y-hidden h-0"
+        class="lg:hidden transition-[height] overflow-y-hidden h-0 bg-white"
       >
-        <div class="pb-4 divide-y flex flex-col items-center">
-          <a
-            href="#"
-            class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
-            >Products</a
-          >
-          <a
-            href="#"
-            class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
-            >Solutions</a
-          >
-          <a
-            href="#"
-            class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
-            >Services</a
-          >
-          <a
-            href="#"
-            class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
-            >Help Center</a
-          >
+        <ul class="pb-4 divide-y flex flex-col items-center">
+          <li class="w-full">
+            <div class="container">
+              <a
+                href="#"
+                class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
+                >Products</a
+              >
+            </div>
+          </li>
+          <li class="w-full">
+            <div class="container">
+              <a
+                href="#"
+                class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
+                >Solutions</a
+              >
+            </div>
+          </li>
+          <li class="w-full">
+            <div class="container">
+              <a
+                href="#"
+                class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
+                >Services</a
+              >
+            </div>
+          </li>
+          <li class="w-full">
+            <div class="container">
+              <a
+                href="#"
+                class="block py-2 text-gray-700 hover:text-indigo-600 px-4 w-full"
+                >Help Center</a
+              >
+            </div>
+          </li>
 
-          <a
-            href="#"
-            class="block py-2 text-gray-700 hover:text-indigo-600 px-4 border-b-0 w-full"
-            >Pricing</a
-          >
-          <a
-            href="http://facebook.com/templatehearth"
-            target="_blank"
-            rel="noreferrer"
-            class="inline-block mx-auto button bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
-          >
-            Sign Up Free
-          </a>
-        </div>
+          <li class="w-full">
+            <div class="container">
+              <a
+                href="#"
+                class="block py-2 text-gray-700 hover:text-indigo-600 px-4 border-b-0 w-full"
+                >Pricing</a
+              >
+            </div>
+          </li>
+          <li class="pt-4">
+            <a
+              href="http://facebook.com/templatehearth"
+              target="_blank"
+              rel="noreferrer"
+              class="inline-block mx-auto button bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
+            >
+              Sign Up Free
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
 
@@ -134,7 +156,7 @@
               class="text-heading-4 lg:text-heading-1-m text-blue-gray-900"
               data-animate="fadeInLeft"
             >
-              Team projects, <br class="lg:hidden" />
+              Team projects, <br class="md:hidden" />
               done well
             </h1>
             <p
@@ -148,7 +170,7 @@
 
             <form class="flex gap-16">
               <div
-                class="flex gap-8 items-center border border-blue-gray-300 px-16 py-12 w-1/2 lg:w-2/3 rounded-lg"
+                class="flex gap-8 items-center border border-blue-gray-300 px-16 py-12 w-1/2 md:w-2/3 rounded-lg"
                 data-animate="fadeInLeft"
                 data-delay="300"
               >
@@ -165,7 +187,7 @@
               </div>
 
               <button
-                class="bg-blue-600 hover:bg-blue-700 text-white w-1/2 lg:w-1/3 rounded-lg"
+                class="bg-blue-600 hover:bg-blue-700 text-white w-1/2 md:w-1/3 rounded-lg"
                 data-animate="fadeInLeft"
                 data-delay="200"
               >
@@ -174,7 +196,7 @@
             </form>
 
             <div
-              class="p-4 bg-blue-gray-100 rounded-lg grid grid-cols-2 lg:grid-cols-4 gap-48 items-center"
+              class="p-4 bg-blue-gray-100 rounded-lg grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-48 items-center"
               data-animate="fadeIn"
               data-delay="500"
             >
@@ -215,7 +237,7 @@
               src="./src/assets/hero.jpg"
               alt="hero"
               onclick="openModal()"
-              class="cursor-pointer"
+              class="cursor-pointer w-full"
             />
 
             <img
